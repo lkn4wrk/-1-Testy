@@ -1,0 +1,21 @@
+---
+address: '0x1a95B271B0535D15fa49932Daba31BA612b52946'
+id: 1673
+links:
+  Announcement: https://bitcointalk.org/index.php?topic=44999999
+  Chat: https://t.me/randrstudiosToken
+  Explorer: https://etherscan.io/token/0x1a95b271b0535d15fa49932daba31ba612b52946
+  Explorer 2: https://ethplorer.io/address/0x1a95b271b0535d15fa49932daba31ba612b52946
+  Technical Documentation: http://files.randrstudios.com/randrstudioswhitepaper.pdf
+  Twitter: https://twitter.com/randrstudiostoken?ref_src=coinmarketcap
+  Website: https://www.randrstudios.com/
+markets:
+- exchange_name: Livecoin
+  pair: R&R$TUDIOS/BTC
+  url: https://www.livecoin.net/en/trading/R&R$TUDIOS_BTC
+name: RAndRStudios
+rank: 3200
+symbol: R&R$TUDIOS
+tags:
+- Token
+website_slug: RAndRStudios
