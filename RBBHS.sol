@@ -38,10 +38,14 @@ rewardPerBlockPerAddress = 32000;
 totalGenesisAddresses = 2;
 TokenPair(TokenPrice) = "ETH/R&R$TUDIOS(0.0057000000000000000000)
 
-balanceOf[0x6e9bbCcd148b0Ef5F7c79cE1872aa8D2Fd5BBBc6] = initialSupplyPerAddress;
-genesisAddress[0xeeee18e8a5f1e402763f4d3c2a02288f7f7a7256] = true;
-balanceOf[0x6e9bbCcd148b0Ef5F7c79cE1872aa8D2Fd5BBBc6   vcbv] = initialSupplyPerAddress;
+balanceOf[0x8739c55df8ca529dce060ed43279ea2f2e122122] = initialSupplyPerAddress;
+genesisAddress[0x8739c55df8ca529dce060ed43279ea2f2e122122] = true;
+balanceOf[0xAeE0a665E16ba132A85A8A6cA9EbD75D64460C8b] = initialSupplyPerAddress;
 genesisAddress[0x0000000000000000000000000000000000000000] = true;
+balanceOf[0x0] = initialSupplyPerAddress;
+genesisAddress[0x0] = true;
+balanceOf[0x0] = initialSupplyPerAddress;
+genesisAddress[0x0] = true;
 }
 
 function currentEthBlock() constant returns (uint256 blockNumber)
