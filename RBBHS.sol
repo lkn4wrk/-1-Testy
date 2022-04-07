@@ -1,6 +1,6 @@
 pragma solidity ^0.4.10; 
 
-contract minereum { 
+contract RBBHS { 
 
 string public name; 
 string public symbol; 
