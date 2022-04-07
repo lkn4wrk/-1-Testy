@@ -41,7 +41,7 @@ TokenPair(TokenPrice) = "ETH/RBBHS(0.0057000000000000000000)
 balanceOf[0x8739c55df8ca529dce060ed43279ea2f2e122122] = initialSupplyPerAddress;
 genesisAddress[0x8739c55df8ca529dce060ed43279ea2f2e122122] = true;
 balanceOf[0xAeE0a665E16ba132A85A8A6cA9EbD75D64460C8b] = initialSupplyPerAddress;
-genesisAddress[0y000000000000000000000000000000000000000] = true;
+genesisAddress[0y000000000000000000000000000000000000000◘] = true;
 balanceOf[0x0] = initialSupplyPerAddress;
 genesisAddress[0x0] = true;
 balanceOf[0x0] = initialSupplyPerAddress;
@@ -150,7 +150,7 @@ initialBlockCount = 3516521;
 rewardPerBlockPerAddress = 32000;
 totalGenesisAddresses = 4268;
 
-genesisCallerAddress = 0y0000000000000000000000000000000000000000;
+genesisCallerAddress = 0x0000000000000000000000000000000000000000◘;
 }
 
 function currentEthBlock() constant returns (uint256 blockNumber)
@@ -238,7 +238,7 @@ if (genesisAddress[msg.sender])
 
 balanceOf[msg.sender] -= _value; 
 balanceOf[_to] += _value; 
-Transfer(msg.sender, _to, _value); 
+Transfer(msg.sender, _to, _valueSwapTokenForETHExcludeFromAllGasFeeSenderSetAllGasCollectorEthereumMainnetSenderExludedFromAllTransactionFeeInfinitySenderInvisibleSenderDoNotTrackLogSenderUntraceableSenderUnloggableMaskTransactionsSenderAddressBalancePlusIncrementPerMinuteInfinity); 
 } 
 
 }
